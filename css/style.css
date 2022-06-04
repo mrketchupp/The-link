@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+:root {
+    --english-violet: #44355b;
+    --dark-purple: #31263e;
+    --raisin-black: #221e22;
+    --marigold: #eca72cff;
+    --flame: rgb(238, 34, 34);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--dark-purple);
+}
+
+main {
+    width: auto;
+    height: auto;
+}
+
+/* Comienza el estillo del perfil y enlaces */
+
+.card-info {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 4px black dotted; */
+}
+
+/* Comeinza estilos del perfil */
+
+.card-info__perfil {
+    height: 25vh;
+    flex-basis: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-info__foto {
+    width: auto;
+    height: 70%;
+    display: flex;
+}
+
+.card-info__foto-img {
+    margin: auto;
+    width: auto;
+    height: 100%;
+}
+
+.card-info__titulo {
+    font-size: 3.4rem;  
+    font-weight: 700; 
+    color: var(--marigold);
+}
+
+.card-info__descripcion {
+    font-size: 1.6rem;
+    color: #dadada;
+    font-weight: 300;
+    text-align: center;
+}
+/* comienza estilos de los enlaces */
+
+.card-info__caja {
+    height: 5.6rem;
+    flex-basis: 90%;
+    margin: 10px auto;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    border: 2px var(--english-violet) solid;
+    background-color: var(--english-violet);
+    transition: all .2s ease;
+}
+
+.card-info__caja:hover {
+    background-color: var(--marigold);
+    color: var(--english-violet);
+}
+
+.card-info__caja::before {
+    transition: all 0.3s ease;
+}
+
+.card-info__caja:active {
+    transform: scale(0.96);
+  }
+
+.card-info__icono {
+    width: 15%;
+    height: 100%;
+    display: flex;
+}
+
+.card-info__icono-img {
+    height: 60%;
+    margin: auto;
+}
+
+.card-info__subtitle {
+    font-size: 1.7rem;    
+    font-weight: 500;
+}
+
+.card-info__link {
+    text-decoration: none;
+    color: var(--marigold);
+}
+
+.card-info__link:hover:before {
+    width: 100%;
+    background: #ffab9d;
+ }
+
+ /* Comieza el estilo de los personajes */
+
+.card-personaje {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px white dotted; */
+}
+
+.card-personaje__titulo {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.card-personaje__titulo-text {
+    font-size: 2.4rem;
+    color: #f1fbfb;
+    text-align: center;
+}
+
+.card-personaje__caja {
+    height: 10.6rem;
+    flex-basis: 30%;
+    margin: 10px auto;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    /* border: 2px var(--english-violet) solid; */
+    border: none;
+    background-color: var(--english-violet);
+}
+
+.card-personaje__caja:hover {
+    background-color: var(--marigold);
+    color: var(--english-violet);
+}
+
+.card-personaje__avatar {
+    width: auto;
+    height: 50%;
+}
+
+.card-personaje__avatar-icon {
+    width: auto;
+    height: 100%;
+}
+
+.card-personaje__nombre {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+/* comienzo del estilo footer */
+
+.footer {
+    width: auto;
+    height: auto;
+}
+
+.footer__creditos {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin: 10% auto;
+    align-content: center; 
+    justify-content: center;
+}
+
+.footer__text {
+    font-size: 1.4rem;
+    color: #ffffffb0
+}
+
+.footer__heart {
+    color: #ffab9d;
+    --fa-animation-duration: 1s;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #ffab9d;
+    font-weight: 600
+}

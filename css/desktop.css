@@ -1,0 +1,36 @@
+/* Comienza el estillo del perfil y enlaces */
+
+.card-info {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Comeinza estilos del perfil */
+
+.card-info__perfil {
+    flex-basis: 70%;
+    display: flex;
+    height: 30vh;
+}
+
+/* comienza estilos de los enlaces */
+.card-info__caja {
+    flex-basis: 47%;
+}
+
+.card-info__icono-img {
+    height: 70%;
+}
+
+ /* Comieza el estilo de los personajes */
+
+.card-personaje {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-personaje__caja {
+    flex-basis: 24%;
+}
