@@ -34,3 +34,8 @@
 .card-personaje__caja {
     flex-basis: 30%;
 }
+
+.personajes__sliders {
+    width: 80%;
+
+}
