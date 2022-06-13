@@ -39,3 +39,7 @@
     width: 80%;
 
 }
+
+.personajes__sliders .arrow-right {
+    display: none;
+}

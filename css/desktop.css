@@ -31,9 +31,6 @@
     margin: 0 auto;
 }
 
-.personajes__sliders {
-}
-
-.personajes__img {
-
+.personajes__sliders .arrow-right {
+    display: none;
 }
