@@ -12,7 +12,7 @@ Como ejemplo use la información del creador **Chiyako Shintara**
 
 # Contributing
 
-If someone wants to add or improve something, I invite you to collaborate directly in this repository: [the-link](https://github.com/MrKetchupp/The-link)
+If someone wants to add or improve something, I invite you to collaborate directly in this repository: [the-link](https://chiyako.vercel.app/)
 
 # License
 
