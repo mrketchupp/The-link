@@ -8,11 +8,11 @@ Como ejemplo use la información del creador **Chiyako Shintara**
 
 ![The Link Sitio web](https://i.ibb.co/vH5Nh0p/imagen.png)
 
-[![Boton](https://i.ibb.co/h7SdxnB/button.png)](https://mrketchupp.github.io/The-link/)
+[![Boton](https://i.ibb.co/h7SdxnB/button.png)](https://chiyako.vercel.app/)
 
 # Contributing
 
-If someone wants to add or improve something, I invite you to collaborate directly in this repository: [the-link](https://chiyako.vercel.app/)
+If someone wants to add or improve something, I invite you to collaborate directly in this repository: [the-link](https://github.com/MrKetchupp/The-link)
 
 # License
 
