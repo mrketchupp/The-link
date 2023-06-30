@@ -4,7 +4,7 @@ Me base en replicar los sitios donde puedes agrupar todos tus links importantes 
 
 # Usage
 
-Como ejemplo use la información del creador **Chiyako Shintara** 
+Como ejemplo use la información del creador **Chiyako Shintara.** 
 
 ![The Link Sitio web](https://i.ibb.co/vH5Nh0p/imagen.png)
 
